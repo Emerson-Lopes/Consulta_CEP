@@ -13,7 +13,7 @@ public class App {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Consulta CEP - ViaCEP");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(500, 500);
+        frame.setSize(350, 300);
 
         JPanel panel = new JPanel(new BorderLayout());
         JTextField cepField = new JTextField();
